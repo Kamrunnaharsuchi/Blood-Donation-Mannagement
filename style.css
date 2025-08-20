@@ -1,0 +1,41 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+.card {
+    border: 1px solid #dc3545;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.btn-danger {
+    font-weight: bold;
+}
+
+/* Medium screen */
+@media (max-width: 1400px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Small screen */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5rem;
+        color: #b71c1c;
+    }
+    .card {
+        margin-bottom: 15px;
+    }
+    .btn {
+        font-size: 0.9rem;
+    }
+}
